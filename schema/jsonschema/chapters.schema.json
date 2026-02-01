@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/goldstonian-concordance-bible/chapters.schema.json",
+  "title": "Chapters Index Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["chapter_id", "book_id", "chapter_number", "title", "version"],
+    "properties": {
+      "chapter_id": { "type": "string" },
+      "book_id": { "type": "string" },
+      "chapter_number": { "type": "integer" },
+      "title": { "type": "string" },
+      "version": { "type": "string" }
+    },
+    "additionalProperties": true
+  }
+}
