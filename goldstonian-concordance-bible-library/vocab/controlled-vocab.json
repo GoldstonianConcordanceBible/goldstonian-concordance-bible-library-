@@ -1,0 +1,23 @@
+{
+  "version": "2026.02",
+  "terms": [
+    {
+      "term_id": "creation",
+      "label": "Creation",
+      "definition": "God's creative act and ordering of reality.",
+      "aliases": ["creation account", "beginning"]
+    },
+    {
+      "term_id": "covenant_seed",
+      "label": "Covenant Seed",
+      "definition": "Promise-line continuity and covenantal inheritance through the canon.",
+      "aliases": ["seed promise", "promise line"]
+    },
+    {
+      "term_id": "messiah_thread",
+      "label": "Messiah Thread",
+      "definition": "Signals, types, prophecies, and fulfillments that point to the Messiah.",
+      "aliases": ["messianic thread", "christ thread"]
+    }
+  ]
+}
