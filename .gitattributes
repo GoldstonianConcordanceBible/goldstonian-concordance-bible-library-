@@ -1,0 +1,10 @@
+# Normalize line endings
+* text=auto
+
+# Treat data files as text for diffs
+*.json text
+*.ndjson text
+*.csv text
+*.md text
+*.yml text
+*.yaml text
