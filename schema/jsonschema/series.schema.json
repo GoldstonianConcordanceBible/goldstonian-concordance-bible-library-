@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/goldstonian-concordance-bible/series.schema.json",
+  "title": "Series Index Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["series_id", "title", "canon", "version"],
+    "properties": {
+      "series_id": { "type": "string" },
+      "title": { "type": "string" },
+      "canon": { "type": "string" },
+      "version": { "type": "string" }
+    },
+    "additionalProperties": true
+  }
+}
