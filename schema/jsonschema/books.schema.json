@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/goldstonian-concordance-bible/books.schema.json",
+  "title": "Books Index Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["book_id", "series_id", "volume", "title", "status", "version"],
+    "properties": {
+      "book_id": { "type": "string" },
+      "series_id": { "type": "string" },
+      "volume": { "type": "integer" },
+      "title": { "type": "string" },
+      "status": { "type": "string" },
+      "version": { "type": "string" }
+    },
+    "additionalProperties": true
+  }
+}
