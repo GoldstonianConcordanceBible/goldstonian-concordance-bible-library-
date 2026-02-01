@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/goldstonian-concordance-bible/passages.schema.json",
+  "title": "Passages NDJSON Schema (per line)",
+  "type": "object",
+  "required": ["passage_id", "book_id", "chapter_id", "ref", "themes", "crossrefs", "version"],
+  "properties": {
+    "passage_id": { "type": "string" },
+    "book_id": { "type": "string" },
+    "chapter_id": { "type": "string" },
+    "ref": { "type": "string" },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "messiah_thread": { "type": "boolean" },
+    "crossrefs": { "type": "array", "items": { "type": "string" } },
+    "notes_ref": { "type": "string" },
+    "version": { "type": "string" }
+  },
+  "additionalProperties": true
+}
