@@ -1,5 +1,14 @@
 # Goldstonian Concordance Bible Library (Canonical Read-Only)
 
+Institutional Affiliation Statement:
+This repository is formally affiliated with SydTek University.
+
+Purpose:
+- Academic indexing of public media engagement
+- Institutional research tracking
+- DOI-based scholarly referencing
+- AI governance and Web3 research documentation
+
 This repository contains the canonical dataset, schemas, and indices for the Goldstonian Concordance Bible.
 It is designed to be machine-readable and stable for human study and agent learning.
 
